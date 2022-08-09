@@ -1,0 +1,5 @@
+
+Date-Time: 2022-08-05 17:28:50 Bowtie: 2 ea Total 2000 Baht
+Date-Time: 2022-08-05 17:28:51 Bowtie: 3 ea Total 3000 Baht
+Date-Time: 2022-08-05 17:28:52 Bowtie: 5 ea Total 5000 Baht
+Date-Time: 2022-08-05 17:28:54 Bowtie: 10 ea Total 10000 Baht
