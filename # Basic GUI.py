@@ -7,7 +7,7 @@ import csv
 
 GUI = Tk()
 GUI.geometry('500x400')
-GUI.title('Terng Program')
+GUI.title('Program for Bow tiw calculate v.0.0.1')
 
 file = PhotoImage(file='bow.png')
 IMG = Label(GUI, image=file,text='')
@@ -43,12 +43,12 @@ def writetext(quantity,total):
 #########
 
 def writecsv(data):
-	# data = ['Time','10','1000']
+	
 	with open('data.csv', 'a', newline='', encoding='utf-8') as file:
 		fw = csv.writer(file) # fw = file writer
 		fw.writerow(data)
 
-################
+############
 
 def readcsv():
 	with open('data.csv', newline='', encoding='utf-8') as file:
@@ -108,7 +108,7 @@ def summaryData(event):
 	messagebox.showinfo(title,text)
 
 GUI.bind('<F1>',summaryData)
-
+GUI.bind('<F2>',summaryData)
 
 E1.focus() #ให้ cursor ไปที่ตำแหน่ง E1 ตอนstart
 GUI.mainloop()
